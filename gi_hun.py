@@ -1,6 +1,6 @@
 def gi_hun():
     t = int(input())  # number of test cases
-    output = []
+    output = [] # for printing output one by one
     for i in range(t):
         n, k = map(int, input().split())  # number of players and their height
         heights = list(map(int, input().split()))  # heights of the players
