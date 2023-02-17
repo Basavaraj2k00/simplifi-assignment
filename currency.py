@@ -1,5 +1,5 @@
 def inr_notation(number):
-    # Convert the integer to a string
+    # Convert the number to a string
     number_string = str(number)
 
     if '.' in number_string:
